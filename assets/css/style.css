@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #CCA961;
+  color: #ffc451;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #CCA961;
+  border: 6px solid #ffc451;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
