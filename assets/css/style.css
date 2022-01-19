@@ -1316,8 +1316,12 @@ section {
 @media (max-width: 770px)
 {
   #hero {
+    background: #282828;
+  }
 
-    background: url("../img/template_2.jpg") top center;
+  #header{
+    position: static !important;
+    background: #151515;
   }
 
 }
