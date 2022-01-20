@@ -1289,6 +1289,8 @@ section {
   .navbar-mobile{
     animation-duration: 0.5s;
     transform:translate(-50px);
+    transition: 0.8s;
   }
+
 
 }
