@@ -279,17 +279,17 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   overflow: hidden;
   top: 0;
-  right: 0;
+  right: -100px;
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.9);
-  transition: 0.3s;
+  transition: 0.8s;
   z-index: 999;
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 50px;
 }
 .navbar-mobile ul {
   display: block;
@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
   background-color: #151515c0;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 0.8s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
@@ -1284,6 +1284,11 @@ section {
 
   .get-started-btn{
     visibility: hidden;
+  }
+
+  .navbar-mobile{
+    animation-duration: 0.5s;
+    transform:translate(-50px);
   }
 
 }
