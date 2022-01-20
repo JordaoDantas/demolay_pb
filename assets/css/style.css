@@ -1274,5 +1274,12 @@ section {
   .phone{
   margin-bottom: 40px;
   }
+  .footer-text{
+    text-align: center;
+  }
+  #footer .footer-top .footer-links ul li {
+
+   justify-content: center;
+  }
 
 }
