@@ -134,9 +134,11 @@
         navbarToggle.classList.toggle('bi-list')
         navbarToggle.classList.toggle('bi-x')
       }
+  
       scrollto(this.hash)
     }
   }, true)
+
 
   /**
    * Scroll with ofset on page load with hash links in the url
