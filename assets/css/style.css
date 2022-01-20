@@ -529,7 +529,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
+  /*min-height: 400px;*/
 }
 
 /*--------------------------------------------------------------
@@ -1280,6 +1280,10 @@ section {
   #footer .footer-top .footer-links ul li {
 
    justify-content: center;
+  }
+
+  .get-started-btn{
+    visibility: hidden;
   }
 
 }
